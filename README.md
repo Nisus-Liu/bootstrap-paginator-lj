@@ -27,9 +27,10 @@ Bootstrap Paginator-lj v1.0
 
 ### 优化后效果
 
-上述的普通分页逻辑和bootstrap-paginator特有的分页逻辑均可使用, \*
-**普通分页逻辑:** 分页参数设置时, 设置`currentPage`, `pageSize`和`total`.
-并用EL表达式接收回显. \* **bootstrap-paginator的分页逻辑:** 分页参数设置时,
+上述的普通分页逻辑和bootstrap-paginator特有的分页逻辑均可使用, 
+* **普通分页逻辑:** 分页参数设置时, 设置`currentPage`, `pageSize`和`total`.
+并用EL表达式接收回显. 
+* **bootstrap-paginator的分页逻辑:** 分页参数设置时,
 设置`currentPage`和`totalPages`. 并EL表达式接收回显.
 
 Changes
