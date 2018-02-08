@@ -87,7 +87,7 @@
                 if (this.options.total == 0) {
                     console.warn("正在根据'total'(0)和'pageSize'计算'totalPages', \n请确保您的数据量确实为0条!");
                 }
-                this.totalPages = (this.options.total + this.options.pageSize - 1) / this.options.pageSize;
+                this.totalPages = parseInt((this.options.total + this.options.pageSize - 1) / this.options.pageSize);   //DEBUG: js里面整数相除, 需要手动取整, 否则结果为小数.  LJ: 2018-2-9 00:31:24
             }
 
             // this.totalPages = parseInt(this.options.totalPages, 10);  //setup the total pages property.
